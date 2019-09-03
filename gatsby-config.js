@@ -4,7 +4,12 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Neil Williams | Software Engineer`,
+    siteHeadline: `Neil Williams Portfolio`,
+    siteDescription: `An exhibition of some of the things I have coded.`,
+    author: `Neil Williams`,
+    siteImage: `/banner.jpg`,
+    siteUrl: `https://neilwilliams.xyz`
   },
   plugins: [
     {
